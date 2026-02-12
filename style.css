@@ -28,6 +28,44 @@ body {
 }
 
 /* Header */
+/* Header Layout Update */
+header {
+  background: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  flex-wrap: wrap;
+}
+
+/* Social Buttons */
+.social a {
+  text-decoration: none;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 14px;
+  margin-left: 8px;
+  transition: 0.3s;
+}
+
+.insta {
+  background: #E1306C;
+}
+
+.fb {
+  background: #1877F2;
+}
+
+.yt {
+  background: #FF0000;
+}
+
+.social a:hover {
+  opacity: 0.8;
+}
+
 header {
   background: white;
   display: flex;
